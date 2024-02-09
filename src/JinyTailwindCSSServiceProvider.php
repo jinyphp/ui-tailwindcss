@@ -20,7 +20,7 @@ class JinyTailwindCSSServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', $this->package);
 
-        Blade::component($this->package.'::components.'.'loading-indicator', 'loading-indicator');
+        // Blade::component($this->package.'::components.'.'loading-indicator', 'loading-indicator');
 
 
     }
