@@ -23,8 +23,10 @@ class JinyTailwindCSSServiceProvider extends ServiceProvider
         // Blade::component($this->package.'::components.'.'loading-indicator', 'loading-indicator');
 
         Blade::component($this->package.'::layouts.'.'layout', 'tailwindcss');
+        Blade::component($this->package.'::layouts.'.'main', 'tail-main');
 
-
+        Blade::component($this->package.'::components.'.'modal.dialog-modal', 'tail-dialog-modal');
+        Blade::component($this->package.'::components.'.'modal.dialog-modal', 'tail-modal');
     }
 
     public function register()

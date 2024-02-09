@@ -31,10 +31,9 @@
         @include('jiny-ui-tailwind::layouts.header')
         <!-- END Page Header -->
 
+
         <!-- Page Content -->
-        <main id="page-content" class="flex flex-auto flex-col max-w-full pt-16">
-            {{$slot}}
-        </main>
+        {{$slot}}
         <!-- END Page Content -->
 
         <!-- Page Footer -->
